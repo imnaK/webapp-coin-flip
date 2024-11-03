@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: unset;
+  color: #fff;
+  background-color: #000;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
